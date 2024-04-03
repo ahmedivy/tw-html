@@ -800,6 +800,14 @@ video {
   height: 500px;
 }
 
+.h-\[10px\] {
+  height: 10px;
+}
+
+.h-\[20px\] {
+  height: 20px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -838,6 +846,14 @@ video {
 
 .w-\[400px\] {
   width: 400px;
+}
+
+.w-\[2px\] {
+  width: 2px;
+}
+
+.w-\[4px\] {
+  width: 4px;
 }
 
 .grid-cols-3 {
