@@ -856,6 +856,10 @@ video {
   width: 4px;
 }
 
+.w-\[1px\] {
+  width: 1px;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
