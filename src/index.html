@@ -5,15 +5,485 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="container mx-auto">
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    <i data-lucide="volume-2" class=""></i>
-    <i data-lucide="x"></i>
-    <i data-lucide="menu"></i>
+  <body class="container mx-auto w-[1200px]">
+    <div id="altText">Image Alt Text: Nothing</div>
+    <head class="mb-20">
+      <div class="flex items-center p-2 border-b border-black">
+        <i data-lucide="newspaper" class="text-black mr-2"></i>
+        <p>Read todays eEdition</p>
+        <img
+          class="h-7 mx-auto"
+          src="../assets/logo.svg"
+          alt="miamiherald Logo"
+        />
+        <div class="flex items-center">
+          <a>Log In</a>
+          <span class="w-1 h-full m-2 bg-gray-400"></span>
+          <a class="font-bold">Sign Up</a>
+        </div>
+      </div>
+      <div class="flex items-center p-3">
+        <i data-lucide="menu" class="text-black mr-2"></i>
+        <nav class="flex gap-3 items-center mx-auto">
+          <a href="#" class="hover:underline uppercase">News</a>
+          <a href="#" class="hover:underline uppercase">Sports</a>
+          <a href="#" class="hover:underline uppercase">Business</a>
+          <a href="#" class="hover:underline uppercase">Polictics</a>
+          <a href="#" class="hover:underline uppercase">Opinions</a>
+          <span class="size-[3px] rounded-full bg-black"></span>
+          <a href="#" class="hover:underline uppercase">Sports Betting</a>
+          <a href="#" class="hover:underline uppercase">Personal</a>
+          <a href="#" class="hover:underline uppercase">Finance</a>
+          <a href="#" class="hover:underline uppercase">Public Notices</a>
+          <a href="#" class="hover:underline uppercase">Obituaries</a>
+          <a href="#" class="hover:underline uppercase">Shopping</a>
+        </nav>
+        <p>76 °F</p>
+      </div>
+    </head>
+
+    <main>
+      <div class="w-full bg-white py-7">
+        <p class="uppercase text-center">Special Report</p>
+        <div class="mx-40">
+          <p
+            class="text-center hover:underline font-extrabold text-6xl my-8 text-wrap"
+          >
+            Florida lawyer writes rules to win condo auctions for $100. Judges
+            let him do it.
+          </p>
+        </div>
+        <img class="w-full" src="../assets/main-article.jpg" alt="Image" />
+        <p class="uppercase text-gray-700 p-3">
+          PHOTO ILLUSTRATION BY SOHAIL AL-JAMEA AND AL DIAZ
+        </p>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4">
+        <div class="col-span-2 bg-white row-span-2 p-6 flex flex-col">
+          <img class="w-full" src="../assets/trump.jpg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Polictics</p>
+          <h2 class="hover:underline font-bold text-3xl my-6 text-wrap">
+            Trump called Florida’s 6-week abortion ban a ‘terrible mistake.’
+            He’ll say more next week
+          </h2>
+          <p>
+            Florida’s most famous resident is facing political pressure on the
+            issue once again after a pair of court rulings in his home state.
+          </p>
+          <p class="mt-auto">APRIL 02, 2024 6:18 PM</p>
+        </div>
+        <div class="bg-white p-6">
+          <img class="w-full" src="../assets/abortion.jpeg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Florida Politics</p>
+          <h2 class="hover:underline font-bold text-xl my-2 text-wrap">
+            Abortion access is on the ballot in Florida. So are two justices who
+            voted against it
+          </h2>
+
+          <p class="mt-6">APRIL 02, 2024 6:18 PM</p>
+        </div>
+        <div class="bg-white p-6">
+          <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Miami Heat</p>
+          <h2 class="hover:underline font-bold text-xl my-2 text-wrap">
+            Heat opens important week with quality win over Knicks. Takeaways
+            and postgame reaction
+          </h2>
+
+          <p class="mt-6">APRIL 02, 2024 6:18 PM</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-6 my-6">
+        <div class="row-span-2 p-4 space-y-12 bg-white">
+          <p class="uppercase">Latest News</p>
+          <div class="flex flex-col gap-6">
+            <h3 class="hover:underline text-lg">
+              Winter 2024 All-County teams: The best of Miami-Dade and Broward
+            </h3>
+            <p class="text-sm text-gray-600">UPDATED MARCH 31, 2024 3:52 PM</p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h3 class="hover:underline text-lg">
+              Winter 2024 All-County teams: The best of Miami-Dade and Broward
+            </h3>
+            <p class="text-sm text-gray-600">UPDATED MARCH 31, 2024 3:52 PM</p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h3 class="hover:underline text-lg">
+              Winter 2024 All-County teams: The best of Miami-Dade and Broward
+            </h3>
+            <p class="text-sm text-gray-600">UPDATED MARCH 31, 2024 3:52 PM</p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h3 class="hover:underline text-lg">
+              Winter 2024 All-County teams: The best of Miami-Dade and Broward
+            </h3>
+            <p class="text-sm text-gray-600">UPDATED MARCH 31, 2024 3:52 PM</p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h3 class="hover:underline text-lg">
+              Winter 2024 All-County teams: The best of Miami-Dade and Broward
+            </h3>
+            <p class="text-sm text-gray-600">UPDATED MARCH 31, 2024 3:52 PM</p>
+          </div>
+          <a href="#" class="">
+            <p
+              class="text-blue-900 uppercase ml-auto w-full font-bold text-end mt-14"
+            >
+              More in latest news
+            </p>
+          </a>
+        </div>
+        <div class="bg-white p-6">
+          <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Miami Heat</p>
+          <h2 class="hover:underline font-bold text-xl my-2 text-wrap">
+            Heat opens important week with quality win over Knicks. Takeaways
+            and postgame reaction
+          </h2>
+
+          <p class="mt-6">APRIL 02, 2024 6:18 PM</p>
+        </div>
+        <div class="bg-white p-6">
+          <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Miami Heat</p>
+          <h2 class="hover:underline font-bold text-xl my-2 text-wrap">
+            Heat opens important week with quality win over Knicks. Takeaways
+            and postgame reaction
+          </h2>
+
+          <p class="mt-6">APRIL 02, 2024 6:18 PM</p>
+        </div>
+        <div class="bg-white p-6">
+          <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Miami Heat</p>
+          <h2 class="hover:underline font-bold text-xl my-2 text-wrap">
+            Heat opens important week with quality win over Knicks. Takeaways
+            and postgame reaction
+          </h2>
+
+          <p class="mt-6">APRIL 02, 2024 6:18 PM</p>
+        </div>
+        <div class="bg-white p-6">
+          <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Miami Heat</p>
+          <h2 class="hover:underline font-bold text-xl my-2 text-wrap">
+            Heat opens important week with quality win over Knicks. Takeaways
+            and postgame reaction
+          </h2>
+
+          <p class="mt-6">APRIL 02, 2024 6:18 PM</p>
+        </div>
+      </div>
+
+      <!-- Videos -->
+      <div class="w-full">
+        <div class="w-full flex items-center py-4 justify-center">
+          <h2 class="text-3xl font-bold p-0 m-0">Videos</h2>
+          <span class="w-full ml-4 h-[5px] bg-[#DDDDDD]"> </span>
+        </div>
+        <div class="w-full h-[500px] bg-black"></div>
+      </div>
+
+      <!-- Partners -->
+      <div class="w-full">
+        <div class="w-full flex items-center py-4 justify-center">
+          <h2 class="text-3xl font-bold p-0 m-0">Partners</h2>
+          <span class="w-full ml-4 h-[5px] bg-[#DDDDDD]"> </span>
+        </div>
+        <div class="grid grid-cols-3 gap-6">
+          <div class="bg-white p-6">
+            <p class="uppercase text-gray-700 pb-3 text-sm">Miami Heat</p>
+            <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+          </div>
+          <div class="bg-white p-6">
+            <p class="uppercase text-gray-700 pb-3 text-sm">Miami Heat</p>
+            <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+          </div>
+          <div class="bg-white p-6">
+            <p class="uppercase text-gray-700 pb-3 text-sm">Miami Heat</p>
+            <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+          </div>
+          <div class="bg-white p-6">
+            <p class="uppercase text-gray-700 pb-3 text-sm">Miami Heat</p>
+            <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+          </div>
+          <div class="bg-white p-6">
+            <p class="uppercase text-gray-700 pb-3 text-sm">Miami Heat</p>
+            <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+          </div>
+          <div class="bg-white p-6">
+            <p class="uppercase text-gray-700 pb-3 text-sm">Miami Heat</p>
+            <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+            <!-- Article -->
+            <h2 class="hover:underline text-xl my-2 pt-4 text-wrap">
+              Heat opens important week with quality win over Knicks. Takeaways
+              and postgame reaction
+            </h2>
+            <p class="mt-3">APRIL 02, 2024 6:18 PM</p>
+            <!-- Article End -->
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-6 mt-8">
+        <div class="bg-white p-6">
+          <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Miami Heat</p>
+          <h2 class="hover:underline text-xl my-2 text-wrap">
+            Heat opens important week with quality win over Knicks. Takeaways
+            and postgame reaction
+          </h2>
+
+          <p class="mt-6">APRIL 02, 2024 6:18 PM</p>
+        </div>
+        <div class="bg-white p-6">
+          <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Miami Heat</p>
+          <h2 class="hover:underline text-xl my-2 text-wrap">
+            Heat opens important week with quality win over Knicks. Takeaways
+            and postgame reaction
+          </h2>
+
+          <p class="mt-6">APRIL 02, 2024 6:18 PM</p>
+        </div>
+        <div class="bg-white p-6">
+          <img class="w-full" src="../assets/basketball.jpeg" alt="Image" />
+          <p class="uppercase text-gray-700 pt-3 text-sm">Miami Heat</p>
+          <h2 class="hover:underline text-xl my-2 text-wrap">
+            Heat opens important week with quality win over Knicks. Takeaways
+            and postgame reaction
+          </h2>
+
+          <p class="mt-6">APRIL 02, 2024 6:18 PM</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="w-full bg-black text-white grid grid-cols-6 p-4 gap-4 mt-6">
+      <div class="col-span-3">
+        <p class="font-bold text-lg mb-4">Take Us With You</p>
+        <p class="w-[400px]">
+          Real-time updates and all local stories you want right in the palm of
+          your hand.
+        </p>
+      </div>
+      <div class="flex flex-col gap-3">
+        <h4 class="font-bold">Subscriptions</h4>
+
+        <a href="#">Start Subscription</a>
+        <a href="#">Start Subscription</a>
+        <a href="#">Start Subscription</a>
+        <a href="#">Start Subscription</a>
+      </div>
+      <div class="flex flex-col gap-3">
+        <h4 class="font-bold">Subscriptions</h4>
+
+        <a href="#">Start Subscription</a>
+        <a href="#">Start Subscription</a>
+        <a href="#">Start Subscription</a>
+        <a href="#">Start Subscription</a>
+      </div>
+      <div class="flex flex-col gap-3">
+        <h4 class="font-bold">Subscriptions</h4>
+
+        <a href="#">Start Subscription</a>
+        <a href="#">Start Subscription</a>
+        <a href="#">Start Subscription</a>
+        <a href="#">Start Subscription</a>
+      </div>
+    </footer>
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script>
       lucide.createIcons();
+    </script>
+    <script>
+      // add event listener on each image so that when mouse enters it console log its alt text
+
+      const images = document.querySelectorAll("img");
+
+      images.forEach((image) => {
+        image.addEventListener("mouseenter", (e) => {
+          document.getElementById(
+            "altText"
+          ).innerHTML = `Image Alt Text: ${e.target.alt}`;
+        });
+        image.addEventListener("mouseleave", (e) => {
+          document.getElementById(
+            "altText"
+          ).innerHTML = `Image Alt Text: Nothing`;
+        });
+      });
     </script>
   </body>
 </html>
