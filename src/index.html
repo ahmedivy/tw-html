@@ -53,7 +53,7 @@
             let him do it.
           </p>
         </div>
-        <img class="w-full" src="../assets/main-article.jpg" alt="Image" />
+        <img class="w-full" src="../assets/main-article.jpg" alt="Main Article" />
         <p class="uppercase text-gray-700 p-3">
           PHOTO ILLUSTRATION BY SOHAIL AL-JAMEA AND AL DIAZ
         </p>
@@ -61,7 +61,7 @@
 
       <div class="grid grid-cols-3 gap-4">
         <div class="col-span-2 bg-white row-span-2 p-6 flex flex-col">
-          <img class="w-full" src="../assets/trump.jpg" alt="Image" />
+          <img class="w-full" src="../assets/trump.jpg" alt="Trump Image" />
           <p class="uppercase text-gray-700 pt-3 text-sm">Polictics</p>
           <h2 class="hover:underline font-bold text-3xl my-6 text-wrap">
             Trump called Florida’s 6-week abortion ban a ‘terrible mistake.’
@@ -584,11 +584,6 @@
           document.getElementById(
             "altText"
           ).innerHTML = `Image Alt Text: ${e.target.alt}`;
-        });
-        image.addEventListener("mouseleave", (e) => {
-          document.getElementById(
-            "altText"
-          ).innerHTML = `Image Alt Text: Nothing`;
         });
       });
     </script>
